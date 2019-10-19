@@ -1,0 +1,9 @@
+.Socials {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    display: block;
+}
+.Socials.a {
+    background-color: white;
+    -webkit-text-decoration-skip: objects
+}

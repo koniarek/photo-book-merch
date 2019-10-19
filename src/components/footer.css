@@ -1,0 +1,39 @@
+.footer {
+  padding: 2rem 0;
+  background: #000000;
+  font-size: 1.2rem;
+  grid-area: f;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.footer a {
+  color: #6d3344;
+  text-decoration: none;
+}
+
+.Socials {
+  padding-bottom: 70px;
+  display: flex;
+  background: black;
+}
+
+@media only screen and (max-width: 992px) {
+  .footerText {
+    background: black;
+    color: #0e1112;
+    display: block;
+    line-height: 1.5;
+    width: 100%;
+    text-align: center;
+    padding-top: 54px;
+    padding-bottom: 61px;
+  }
+
+}
+
+.hidden {
+  display: none;
+}
