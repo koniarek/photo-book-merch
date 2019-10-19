@@ -1,6 +1,7 @@
 import React from "react"
 import { FaCopyright } from 'react-icons/fa'
 import Socials from "./socials"
+import "./layout.css"
 
 export default class Footer extends React.Component {
 

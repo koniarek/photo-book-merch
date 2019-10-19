@@ -6,8 +6,7 @@ import "../components/layout.css"
 import 'typeface-open-sans/index.css'
 import { exitFullScreen } from "../util/fullScreenHelpers.js"
 import Footer from "../components/footer.js"
-import theme from "../theme.yaml"
-
+import Header from "../components/header"
 class PaginatedGalleryTemplate extends React.Component {
 
     componentDidMount() {
@@ -22,6 +21,7 @@ class PaginatedGalleryTemplate extends React.Component {
                     <meta charSet="utf-8" />
                     <title>Junkietosekta.pl - JNKTSKT x Merch</title>
                 </Helmet>
+             <Header />
                 <GlobalStateContext.Consumer>
                     {globalState => (
                         <>

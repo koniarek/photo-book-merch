@@ -60,7 +60,7 @@ color:
     black: '#000000'
 
   brand:
-    primary: &color-brand-primary '#000000' #'#E39E22' #'#07889B' #'#C0B283' #'#856084' #'#616247'
+    primary: &color-brand-primary '#F01C0B' #'#E39E22' #'#07889B' #'#C0B283' #'#856084' #'#616247'
     primaryLight: '#000000'
     primaryDark: '#000000'
     background: '#fcf7e9'
