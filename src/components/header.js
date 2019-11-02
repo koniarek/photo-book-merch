@@ -8,7 +8,7 @@ const Header = ({}) => <div className="header">
    <Logo />
    <div className={"a.Nav"}>
     <a href='https://junkietosekta.pl/'>News</a>
-    <a href='https://merchpage.netlify.com'>Merch 2019</a>
+    <a href='https://sektapage.netlify.com'>Jnktskt</a>
   </div>
 </div>
 
